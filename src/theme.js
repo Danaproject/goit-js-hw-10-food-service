@@ -6,7 +6,7 @@ const Theme = {
 const switcherRef = document.querySelector('#theme-switch-toggle')
 const bodyRef = document.querySelector('body');
 
-switcherRef.addEventListener('click', handleSwitcher);
+switcherRef.addEventListener('change', handleSwitcher);
 
 setSavedTheme();
 
